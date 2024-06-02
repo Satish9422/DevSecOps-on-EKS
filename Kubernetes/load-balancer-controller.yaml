@@ -803,9 +803,9 @@ spec:
       containers:
       - args:
       # TODO: Update VPC-id and region
-        - --cluster-name=eks-clusters
+        - --cluster-name=my-eks-clusters
         - --ingress-class=alb
-        - --aws-vpc-id=vpc-0626f5b98a654e1aa
+        - --aws-vpc-id=vpc-02ccfea63267f360d
         - --aws-region=ap-south-1
         image: public.ecr.aws/eks/aws-load-balancer-controller:v2.4.7
         livenessProbe:
