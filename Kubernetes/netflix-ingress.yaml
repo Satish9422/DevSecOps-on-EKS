@@ -14,9 +14,9 @@ spec:
     - http:
         paths:
           - path: /
-            pathType: Exact
+            pathType: Prefix
             backend:
               service:
-                name: netflix-app
+                name: netflix-app-service
                 port:
                   number: 80
